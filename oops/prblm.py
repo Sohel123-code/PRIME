@@ -14,6 +14,11 @@ class store:
     def count(cls):
         print(f"Total no of products are {cls.tcount}")
 
+    @staticmethod
+    def calc_discount(price,percentage):
+        discount_p=price-(price*percentage)/100
+        print(f"The final price is {discount_p}")
+
 
     
 
@@ -25,6 +30,8 @@ c1.get_info()
 c2.get_info()
 c3.get_info()
 store.count()
+c1.calc_discount(40000,10)
+
 
 
 
