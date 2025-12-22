@@ -11,3 +11,5 @@ class laptop:
 
 l1=laptop(16,256)
 laptop.get_stor()
+
+# we can print ram as it is a object related attribute
