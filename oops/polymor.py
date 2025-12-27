@@ -20,6 +20,8 @@ t.get_des()
 
 # 2)duck typing  : here both clases which have the same method implementation are not inherited . they are implemented 
 # individualy it is called as duck typing
+
+
 class employee:
     def get_des(self):
         print(f"designation is employee")

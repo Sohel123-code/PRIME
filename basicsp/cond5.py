@@ -9,5 +9,7 @@ else:
 
 # in operator in conditional statements
 str="hai iam khaja"
+
 if 'k' in str:
     print("k exists in given string")
+    

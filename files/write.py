@@ -1,3 +1,3 @@
-f=open("s2.txt","w")
-# it over writes the data 
-f.write("this is the new data")
+f=open("s.txt","w")
+
+f.write("this is the new data which i had writeen now")
