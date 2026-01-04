@@ -1,3 +1,4 @@
+
 # these are the methods in sets.
 
 # add method we can add only 1 element
@@ -25,3 +26,5 @@ s2={6,9,5}
 
 print(s1.union(s2))
 print(s1.intersection(s2))
+
+
