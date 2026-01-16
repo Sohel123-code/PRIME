@@ -20,3 +20,4 @@ print(s1+s2)
 # we can change the elements but not the size of the array
 s1[0]=100
 print(s1)
+
